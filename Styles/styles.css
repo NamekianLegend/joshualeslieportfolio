@@ -86,10 +86,12 @@ p {
     font-size: 1.1rem;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    box-shadow: 0 0 15px rgba(40, 167, 69, 1);
 }
 
 .cta-button:hover {
     background-color: #11e261;
+    box-shadow: 0 0 15px rgba(40, 167, 69, 1);
 }
 
 
