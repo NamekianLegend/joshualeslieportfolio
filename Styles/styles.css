@@ -94,5 +94,14 @@ p {
     box-shadow: 0 0 15px rgba(40, 167, 69, 1);
 }
 
+#countdown {
+    display: none;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
+    font-family: "Orbitron", sans-serif;
+}
+
 
 
