@@ -6,6 +6,10 @@ button.addEventListener('click', () => {
     button.style.display = 'none'; // Hide the button
     countdownDiv.style.display = 'block'; // Show the countdown
 
+    setTimeout(() => {
+        countdownDiv.style.opacity = '1'; // Smooth fade-in
+    }, 100); // Slight delay for smoother transition
+
     let count = 3; // Start the countdown at 3
     const timer = setInterval(() => {
         count -= 1; // Decrement the count
