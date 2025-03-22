@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/bde04bfd-9d51-4b55-a36d-86501337ca7b)
+
+
 # MyPortfolio
 This is the start of my portfolio page, it is a work in progress!! 
 I will add to README the updated status of webpage as I work on it.
