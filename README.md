@@ -10,3 +10,8 @@ Status: Incomplete - LMD March 3rd, 2025
 I have been slowly working on this as I complete exercises, assignments, and quizes in my classes. I have begun to start to personalize it more and more.
 Still a long ways away from being done, but I feel I have made some good practice in the last couple weeks.
 Status: Incomplete - LMD March 18th, 2025
+
+
+Plugged away at it a bit more. Put some finishing touches on contact page. Think I am about done with that for now. I want to add a form to it someday but for nowi have commented it out.
+I tweaked the CSS files a bit to make some uniform changes across all pages.
+Status: Incomplete - LMD March 22nd, 2025
