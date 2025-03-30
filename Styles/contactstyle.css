@@ -66,12 +66,12 @@ header nav ul li a:hover {
     background: rgba(0, 0, 0, 0.6);
 }
     */
-/*
+
 .content {
     position: relative;
     z-index: 1;
 }
-*/
+
 main {
     display: flex;
     flex-direction: column;
