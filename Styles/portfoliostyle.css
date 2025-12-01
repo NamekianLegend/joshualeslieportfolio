@@ -204,19 +204,34 @@ select option {
     font-size: 16px;
 }
 
+h2.skills-header {
+    margin-top: 20px;
+    margin-bottom: 10px; 
+    text-shadow: 0 0 10px #00ff99;
+}
+
+
 .skills-list {
-    margin: 40px 0;
     padding: 0;
     list-style: none;
     font-size: 20px;
-    color: #00ff99; 
     text-shadow: 0 0 10px #00ff99;
+}
+.skills-list li {
+    margin-bottom: 20px;
 }
 
 hr {
     border: 0;
     height: 2px;
     background: #00ff99;
-    margin: 20px 0;
+    margin: 30px 0 50px 0; /* Top 30px, bottom 50px */
     box-shadow: 0 0 10px #00ff99;
 }
+
+h2.documents-heading {
+    margin-bottom: 30px;
+    color: #00ff99;
+    text-shadow: 0 0 10px #00ff99;
+}
+
