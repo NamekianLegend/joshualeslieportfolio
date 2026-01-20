@@ -5,34 +5,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joshua Leslie | Portfolio</title>
     <link rel="stylesheet" href="Styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <script src="Scripts/script.js" defer></script>
+
+    <!-- NAVIGATION -->
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#documents">Documents</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="hero">
-            <div class="content">
-                <h1>Prepare for Launch: Explore My Coding Universe</h1>
-                <h2>From "Hello World" to "Hello Universe".. This is my Coding Journey.</h2>
-                <button id="viewWorkButton" class="cta-button">Blast Off to My Work</button>
-                <div id="countdown">
-                    <h2 id="count">3</h2>
-                </div>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+        <h1>Prepare for Launch: Explore My Coding Universe</h1>
+        <h2>From "Hello World" to "Hello Universe" — this is my coding journey.</h2>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-section">
+            <p>I’m an IT Programming student at Nova Scotia Community College with a growing focus on software quality and testing. I enjoy building reliable applications, exploring secure development practices, and working across languages like Java, C++, Python, and C#. Outside of coding, I’m inspired by space, games, and technology, and I’m always looking for new ways to learn and improve.</p>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Programming Languages: Python, Java, C, JavaScript, HTML, CSS, C++</li>
+            <li>Web Development: Front-end and Back-end Development (Spring), Responsive Design</li>
+            <li>Database Management: SQL, Database Design and Optimization</li>
+            <li>Networking: Network Configuration, Security Protocols, Troubleshooting</li>
+            <li>Operating Systems: Windows, Linux Administration</li>
+            <li>Software Development: Agile Methodologies, Version Control (Git)</li>
+        </ul>
+    </section>
+
+    <!-- DOCUMENTS -->
+    <section id="documents">
+        <h2>Documents & Certifications</h2>
+
+        <a href="./Documents/Joshua_Leslie_ResumeOctober2025.pdf" class="cta-button" target="_blank">Resume</a>
+        <a href="./Documents/JoshuaLeslie_UnofficialTranscript_ITProgrammingYear1Semester1.pdf" class="cta-button" target="_blank">Transcripts</a>
+
+        <div class="dropdown">
+            <button class="doc-button">Course Outlines ▼</button>
+            <div class="dropdown-content">
+                <a href="./Documents/CO PROG 1700 Logic and Programming.pdf" target="_blank">Logic and Programming</a>
+                <a href="./Documents/CO DBAS 1007 Data Fundamentals.pdf" target="_blank">Data Fundamentals</a>
+                <a href="./Documents/CO- WEBD1000.pdf" target="_blank">Website Development</a>
+                <a href="./Documents/Course Outline NETW1027.pdf" target="_blank">Networking & Security</a>
+                <a href="./Documents/OSYS_1200_Introduction to Windows Administration Outline.pdf" target="_blank">Windows Administration</a>
+                <a href="./Documents/ICOM Course outline.pdf" target="_blank">Professional Practice 1</a>
+                <a href="./Documents/OSYS 1000- Course Outline.pdf" target="_blank">Linux</a>
+                <a href="./Documents/PROG 1400 - Course Outline.pdf" target="_blank">OOP</a>
+                <a href="./Documents/PROG 2007 - Course Outline.pdf" target="_blank">Programming in C</a>
+                <a href="./Documents/PROG 2700- Course Outline.pdf" target="_blank">Client-Side Programming</a>
+                <a href="./Documents/SAAD 1001.pdf" target="_blank">Systems Analysis</a>
+                <a href="./Documents/Course Outline_ICOM 2702.pdf" target="_blank">Professional Practice 2</a>
+                <a href="./Documents/AdvancedTopicsinProgrammingCourse Outline.pdf" target="_blank">Advanced Topics</a>
+                <a href="./Documents/MobiCourseoutline.pdf" target="_blank">Mobile Development</a>
+                <a href="./Documents/Web APplication Course Outline.pdf" target="_blank">Web Application Programming</a>
+                <a href="./Documents/INFT 2100.pdf" target="_blank">Project Management</a>
+                <a href="./Documents/PROG 2100.pdf" target="_blank">Programming in C++</a>
             </div>
-        </section>
-    </main>
+        </div>
+
+        <div class="dropdown">
+            <button class="doc-button">Certifications ▼</button>
+            <div class="dropdown-content">
+                <a href="./Documents/WHMIS_Certificate_Internal.pdf" target="_blank">WHMIS</a>
+                <a href="./Documents/OHS_Certificate_Internal.pdf" target="_blank">OHS</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="projects-container">
+            <div class="project">
+                <img src="./Images/LNPASSIGNMENT3OUTPUTSample.png" alt="Project 1 Screenshot">
+                <h3>Turn-Based Battle Simulator</h3>
+                <p>A command-line program that generates two random warriors and simulates a best‑of‑three battle.</p>
+            </div>
+
+            <div class="project">
+                <img src="./Images/INTROOOPASSIGNMENT1OUTPUTSample.png" alt="Project 2 Screenshot">
+                <h3>Student Management System</h3>
+                <p>CLI tool for adding, reading, updating, and removing student records.</p>
+            </div>
+
+            <div class="project">
+                <img src="./Images/PROGCASSIGNMENT1OUTPUTSample.png" alt="Project 3 Screenshot">
+                <h3>Student Grades Management System</h3>
+                <p>CLI tool for entering student grades, calculating averages, and computing class-wide results.</p>
+            </div>
+
+            <div class="project">
+                <img src="./Images/pythonproject.png" alt="Project 4 Screenshot">
+                <h3>Python Game</h3>
+                <p>A simple Space‑Invaders‑style game using OOP concepts like classes, inheritance, and polymorphism.</p>
+            </div>
+
+            <div class="project">
+                <img src="./Images/c++project.png" alt="Project 5 Screenshot">
+                <h3>C++ Card Game</h3>
+                <p>A CLI game where players guess whether the next card is higher or lower, using classes and vectors.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <img src="./Images/logo1.png" alt="logo" class="logo">
+
+        <div class="contact-text">
+            <p>Let’s connect! Whether it’s a project, a question, or just a signal from the void — I’m always open to chat.</p>
+        </div>
+
+        <div class="contact-info">
+            <a href="mailto:lesliedkjoshua@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="https://linkedin.com/in/joshua--leslie" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/NamekianLegend" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
     <footer>
-        <p>&copy; 2025 Joshua Leslie</p>
+        <p>© 2025 Joshua Leslie</p>
     </footer>
+
 </body>
 </html>
