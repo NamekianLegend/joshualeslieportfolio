@@ -1,0 +1,266 @@
+/* --------------------------------------------------
+   GLOBAL RESET & BASE STYLES
+-------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background: #0d0f14;
+    color: #e6e6e6;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 1.6;
+    min-height: 100%;
+}
+
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap');
+
+/* --------------------------------------------------
+   NAVIGATION
+-------------------------------------------------- */
+header {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 20;
+    backdrop-filter: blur(6px);
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+header nav ul li a {
+    color: #e6e6e6;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+header nav ul li a:hover {
+    color: #7dd3fc;
+}
+
+/* --------------------------------------------------
+   HERO SECTIONS
+-------------------------------------------------- */
+.hero {
+    padding: 140px 40px 100px;
+    text-align: center;
+    background: linear-gradient(135deg, #0d0f14 0%, #11131a 100%);
+}
+
+.hero h1,
+.hero h2 {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 0 auto 25px;
+    color: #b8b8b8;
+}
+
+/* --------------------------------------------------
+   BUTTONS
+-------------------------------------------------- */
+.cta-button,
+.doc-button,
+.dropdown button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #1c1f27;
+    color: #e6e6e6;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-button:hover,
+.doc-button:hover,
+.dropdown button:hover {
+    background: #2a2e38;
+}
+
+/* --------------------------------------------------
+   SECTIONS
+-------------------------------------------------- */
+main {
+    padding-top: 80px;
+}
+
+section {
+    padding: 60px 40px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* --------------------------------------------------
+   ABOUT PAGE
+-------------------------------------------------- */
+.about-section {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-section p {
+    margin-bottom: 20px;
+    color: #cfcfcf;
+}
+
+/* --------------------------------------------------
+   PORTFOLIO PAGE (Skills + Documents)
+-------------------------------------------------- */
+.skills-header {
+    margin-bottom: 15px;
+}
+
+.skills-list {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.skills-list li {
+    margin-bottom: 12px;
+    color: #cfcfcf;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #2a2e38;
+    margin: 40px 0;
+}
+
+.documents-header {
+    margin-bottom: 20px;
+}
+
+/* Dropdowns */
+.dropdown {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #1c1f27;
+    border-radius: 6px;
+    min-width: 200px;
+    padding: 10px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px 15px;
+    color: #e6e6e6;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+.dropdown-content a:hover {
+    background: #2a2e38;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* --------------------------------------------------
+   PROJECTS PAGE
+-------------------------------------------------- */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.project {
+    background: #14171f;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+
+.project:hover {
+    background: #1b1f29;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+/* --------------------------------------------------
+   CONTACT PAGE
+-------------------------------------------------- */
+.logo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+}
+
+.contact-text {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    color: #cfcfcf;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.contact-info a {
+    font-size: 28px;
+    color: #7dd3fc;
+    transition: 0.2s ease;
+}
+
+.contact-info a:hover {
+    color: #bae6fd;
+}
+
+/* --------------------------------------------------
+   FOOTER
+-------------------------------------------------- */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.85);
+    color: #777;
+    margin-top: 40px;
+}
